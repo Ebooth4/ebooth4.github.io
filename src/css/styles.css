@@ -64,9 +64,16 @@ h1, h2, h3 {
 }
 
 header {
-    background-color: rgba(30, 30, 30, 0.9);
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.7), rgba(50, 50, 50, 0.7)); /* Increased transparency */
     padding: 20px;
     text-align: center;
+    width: 40%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the header */
+    border-radius: 20px; /* More rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+    position: relative;
+    top: 20px; /* Adjust the top position as needed */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
 }
 
 header h1 {
