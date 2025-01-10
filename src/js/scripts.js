@@ -10,21 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Form validation for contact form
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-
-            if (!name || !email || !message) {
-                e.preventDefault();
-                alert('Please fill in all fields.');
-            }
-        });
-    }
-
     // Modal functionality
     const openModalButtons = document.querySelectorAll('.open-modal');
     const closeModalButtons = document.querySelectorAll('.close');
